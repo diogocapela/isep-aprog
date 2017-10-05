@@ -1,5 +1,8 @@
 # isep-aprog
+* [PL02](https://github.com/diogocapela/isep-aprog#pl02)
+* [PL03](https://github.com/diogocapela/isep-aprog#pl03)
 
+# PL02
 ## PL02 - Exercício 04
 ```
 ED: input1, input2, input3, numero, raiz
@@ -314,6 +317,7 @@ INÍCIO
 FIM
 ```
 
+# PL02
 ## PL03 - Exercício 02 (Java)
 ```java
 import java.util.*;
