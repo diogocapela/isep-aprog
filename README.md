@@ -128,7 +128,7 @@ FIM
 ```
 
 ## PL02 - Exercício 10 (JavaScript)
-```
+```javascript
 // Variáveis de input
 // ----------------------------
 
