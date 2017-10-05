@@ -2,6 +2,8 @@
 * [PL02](https://github.com/diogocapela/isep-aprog#pl02)
 * [PL03](https://github.com/diogocapela/isep-aprog#pl03)
 
+
+
 # PL02
 ### PL02 - Exercício 04
 ```
@@ -316,6 +318,8 @@ INÍCIO
 
 FIM
 ```
+
+
 
 # PL03
 ### PL03 - Exercício 02 (Java)
