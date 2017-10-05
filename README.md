@@ -3,7 +3,7 @@
 * [PL03](https://github.com/diogocapela/isep-aprog#pl03)
 
 # PL02
-## PL02 - Exercício 04
+### PL02 - Exercício 04
 ```
 ED: input1, input2, input3, numero, raiz
 
@@ -40,7 +40,7 @@ INÍCIO
 FIM
 ```
 
-## PL02 - Exercício 06
+### PL02 - Exercício 06
 ```
 ED: precoNormal, precoSaldo
 
@@ -74,7 +74,7 @@ INÍCIO
 FIM
 ```
 
-## PL02 - Exercício 08
+### PL02 - Exercício 08
 ```
 ED: a, b, c
 
@@ -101,7 +101,7 @@ INÍCIO
 FIM
 ```
 
-## PL02 - Exercício 09
+### PL02 - Exercício 09
 ```
 ED Input: partidaH, partidaM, duracaoH, partidaM
 ED Processo: chegadaH, chegadaM, chegaNoDiaSeguinte
@@ -130,7 +130,7 @@ INÍCIO
 FIM
 ```
 
-## PL02 - Exercício 10 (JavaScript)
+### PL02 - Exercício 10 (JavaScript)
 ```javascript
 // Variáveis de input
 // ----------------------------
@@ -219,7 +219,7 @@ if (inicioHr < 0 || inicioHr > 23 || inicioMin < 0 || inicioMin > 59 || inicioSe
 }
 ```
 
-## PL02 - Exercício 12
+### PL02 - Exercício 12
 ```
 ED: p1x, p1y, p2x, p2y, distancia
 
@@ -234,7 +234,7 @@ INÍCIO
 FIM
 ```
 
-## PL02 - Exercício 13
+### PL02 - Exercício 13
 ```
 ED: totalSegundos, horas, minutos, segundos, contentorSegundos
 
@@ -278,7 +278,7 @@ INÍCIO
 FIM
 ```
 
-## PL02 - Exercício 14
+### PL02 - Exercício 14
 ```
 ED Input: area, precoLitroTinta, rendimentoLitroTinta, salarioDiaPintor
 
@@ -318,7 +318,7 @@ FIM
 ```
 
 # PL03
-## PL03 - Exercício 02 (Java)
+### PL03 - Exercício 02 (Java)
 ```java
 import java.util.*;
 
@@ -382,7 +382,7 @@ public class Main {
 }
 ```
 
-## PL03 - Exercício 05
+### PL03 - Exercício 05
 ```
 ED: minimo, maximo, lista
 
@@ -406,7 +406,7 @@ INÍCIO
 FIM
 ```
 
-## PL03 - Exercício 05 (Java)
+### PL03 - Exercício 05 (Java)
 ```java
 import java.util.*;
 
@@ -461,7 +461,7 @@ public class Main {
 }
 ```
 
-## PL03 - Exercício 07
+### PL03 - Exercício 07
 ```
 ED: produtoMaximo, produtoAcumulado, numeroMaior
 
@@ -494,7 +494,7 @@ INÍCIO
 FIM
 ```
 
-## PL03 - Exercício 09 (Java)
+### PL03 - Exercício 09 (Java)
 ```java
 import java.util.*;
 
