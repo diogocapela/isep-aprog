@@ -317,7 +317,7 @@ INÍCIO
 FIM
 ```
 
-# PL02
+# PL03
 ## PL03 - Exercício 02 (Java)
 ```java
 import java.util.*;
