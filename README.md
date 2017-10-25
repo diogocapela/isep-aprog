@@ -1,4 +1,4 @@
-### ISEP — APROG (Algoritmia e Programação)
+#### ISEP — APROG (Algoritmia e Programação)
 ###### Instituto Superior de Engenharia do Porto — 2017/2018
 * [PL02 Algoritmia](https://gist.github.com/diogocapela/6dbed6f5718b4aed7fa65765d9e7f27e)
 * [PL03 Algoritmia](https://gist.github.com/diogocapela/fd4cd8a9ee327039f59a47eef897d61e)
