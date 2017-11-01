@@ -5,3 +5,4 @@
 * [PL04 Algoritmia](https://gist.github.com/diogocapela/fa080ad4b7326b84141671979df1464a)
 * [PL05 Implementação de Algoritmos em Java e Decomposição Modular](https://gist.github.com/diogocapela/35594368c135a1ea08ef45c2f6bc840b)
 * [PL06 Implementação de Algoritmos em Java e Decomposição Modular](https://gist.github.com/diogocapela/4ef158e91de9f1aafae69d8ad45c03bd)
+* [PL07 Estruturas de Dados Indexadas](https://gist.github.com/diogocapela/222b8dfdb2729a12b15b4f5879ef56cf)
