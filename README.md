@@ -7,3 +7,5 @@
 * [PL06 Implementação de Algoritmos em Java e Decomposição Modular](https://gist.github.com/diogocapela/4ef158e91de9f1aafae69d8ad45c03bd)
 * [PL07 Estruturas de Dados Indexadas](https://gist.github.com/diogocapela/222b8dfdb2729a12b15b4f5879ef56cf)
 * [PL08/09 Estruturas de Dados Indexadas](https://gist.github.com/diogocapela/4cbd792daad2e422ee3e465e2b846b32)
+
+* [Aplicação Rodinhas Championship](https://github.com/diogocapela/isep-aprog/tree/master/RodinhasChampionship)
