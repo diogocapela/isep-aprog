@@ -39,7 +39,9 @@ public class Main {
      * Main
      */
     public static void main(String[] args) {
+
         Menu.showMenu();
+
     }
 
     /**
@@ -47,15 +49,38 @@ public class Main {
      */
     public static void adicionarParticipante(String numSocio, String nome, String marcaCarro, String dataCarro) {
         boolean repetido = verificarSeParticipanteJaExiste(numSocio);
-        if (!repetido) {
+        if(repetido) {
+            System.out.println("ERRO: Um participante com o mesmo número de sócio já se encontra em memória.");
+        } else if (participantesCarregados >= PARTICIPANTES_MAX) {
+            System.out.println("ERRO: O número máximo de participantes foi atingido.");
+        } else {
             participantes[participantesCarregados][0] = numSocio;
             participantes[participantesCarregados][1] = nome;
             participantes[participantesCarregados][2] = marcaCarro;
             participantes[participantesCarregados][3] = dataCarro;
             participantesCarregados++;
             System.out.println("O participante " + nome + " foi carregado em memória com sucesso.");
+        }
+    }
+
+    /**
+     * Apagar os dados de um participante em memória.
+     */
+    public static void deleteParticipante(String numSocio) {
+        boolean repetido = verificarSeParticipanteJaExiste(numSocio);
+        int participanteArrayPosition = getParticipantPositionByNumber(numSocio);
+        if (repetido) {
+            for (int i = participanteArrayPosition; i < PARTICIPANTES_MAX - 1; i++) {
+                participantes[i] = participantes[i + 1];
+            }
+            for (int i = 0; i < PARTICIPANTES_CAMPOS; i++) {
+                // TODO: Como apagar???
+                participantes[PARTICIPANTES_MAX - 1][i] = null;
+            }
+            participantesCarregados--;
+            System.out.println("O participante com o número de sócio " + numSocio + " foi apagado com sucesso.");
         } else {
-            System.out.println("ERRO: Um participante com o mesmo número de sócio já se encontra em memória.");
+            System.out.println("O participante com o número de sócio " + numSocio + " não existe em memória.");
         }
     }
 
@@ -68,6 +93,7 @@ public class Main {
             Scanner scanner = new Scanner(System.in);
             String[] inputData = new String[PARTICIPANTES_CAMPOS];
             System.out.println("A alterar os dados do sócio número " + numSocio + "...:");
+            inputData[0] = numSocio;
             System.out.println("Nome:");
             inputData[1] = scanner.next();
             System.out.println("Carro:");
@@ -85,31 +111,19 @@ public class Main {
     }
 
     /**
-     * Apagar os dados de um participante em memória.
-     */
-    public static void deleteParticipante(String numSocio) {
-        boolean repetido = verificarSeParticipanteJaExiste(numSocio);
-        int participanteArrayPosition = getParticipantPositionByNumber(numSocio);
-        if (repetido) {
-            for (int i = participanteArrayPosition; i < PARTICIPANTES_MAX - 1; i++) {
-                participantes[i] = participantes[i + 1];
-                participantesCarregados--;
-            }
-            for (int i = 0; i < PARTICIPANTES_CAMPOS; i++) {
-                // TODO: Como apagar???
-                participantes[PARTICIPANTES_MAX - 1][i] = null;
-            }
-            System.out.println("O participante com o número de sócio " + numSocio + " foi apagado com sucesso.");
-        } else {
-            System.out.println("O participante com o número de sócio " + numSocio + " não existe em memória.");
-        }
-    }
-
-    /**
      * Ver detalhes de um participante em memória.
      */
     public static void verDetalhesParticipante(String numSocio) {
-
+        boolean repetido = verificarSeParticipanteJaExiste(numSocio);
+        int participantePosition = getParticipantPositionByNumber(numSocio);
+        if (repetido) {
+            System.out.println("A listar detalhes do sócio com o número " + numSocio + ":");
+            for(int i = 0; i < PARTICIPANTES_CAMPOS; i++) {
+                System.out.println(participantes[participantePosition][i]);
+            }
+        } else {
+            System.out.println("O participante com o número de sócio " + numSocio + " não existe em memória.");
+        }
     }
 
     /**
@@ -119,7 +133,6 @@ public class Main {
 
         for (int i = 0; i < participantesCarregados; i++) {
             for (int j = 0; j < PARTICIPANTES_CAMPOS; j++) {
-
                 if (j == 0) {
                     System.out.printf("%30s", participantes[i][j]);
                 } else if (j == 1) {
@@ -127,8 +140,6 @@ public class Main {
                 } else {
                     System.out.printf("%50s", participantes[i][j]);
                 }
-
-
             }
             System.out.println();
         }

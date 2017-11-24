@@ -1,0 +1,23 @@
+1534;      José Costa Neto; BMW;13/1/1999
+1534;      José Neta; BMW;   13/1/1800
+   4435; Ana Rita Gomes ;      Mercedes;   19/01/2002
+3127     ; José Ferreira Gomes; Opel; 19/01/2002
+3214      ; Ana Lima Silva; BMW;       19/01/2001
+    5439;      Fernanda Cunha; Ferrari;      19/01/2000
+2343;       Luís Pereira Ribeiro; Mercedes;     18/01/1999
+       1234   ; Lucas Gomes; Audi;       17/02/1998
+3492; João Pereira Azevedo; Nissan;      16/03/1997
+    3232; Diogo Pereira; BMW; 15/04/1996
+5438; Ana Almeida Santos; Bugatti; 14/05/1995
+4324; Mariana Pinto; Audi;     12/06/1994
+     7483    ; Bianca Dias Fernandes;      Mercedes;     1/07/1993
+9453; Pedro Rodrigues Alves; BMW; 19/08/1992
+      5438;      Miguel Melo Almeida;     Mercedes;     19/09/1991
+3453; Mateus Barbosa Martins; Mercedes;        19/10/1990
+      4383; Vitória Cardoso Pinto; Bugatti; 2/11/1989
+5345;      Vitor Correia Pinto;       Mercedes; 19/12/1980
+3957;    Laura Ferreira; BMW; 21/01/1976
+    3095;       Amanda Barros Pinto;    Mercedes;       22/02/2004
+4926;      Pedro Gomes Lima; Nissan;       30/12/2002
+      5344; Artur Barbosa; Audi;       19/10/1990
+4937;     Gabriel Oliveira Rocha;     Nissan;       20/05/2002

@@ -42,6 +42,8 @@ public class Menu {
         System.out.println("----------------------------------------------------");
         System.out.println("0: Sair");
         System.out.println("----------------------------------------------------");
+        System.out.println("Participantes carregados: " + Main.participantesCarregados);
+        System.out.println("----------------------------------------------------");
         System.out.println("Escolha uma opção para continuar...");
         int userChoice = scanner.nextInt();
         switch (userChoice) {
